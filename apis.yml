@@ -1,7 +1,18 @@
 aid: blue-river-technology
 name: Blue River Technology
-description: Blue River Technology is a company surfaced as a portfolio company of dcvc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Blue River Technology is an agricultural robotics and machine-learning company headquartered in
+  Santa Clara, California, and a wholly owned subsidiary of John Deere (Deere & Company), which
+  acquired it in 2017. Founded in 2011 by Jorge Heraud and Lee Redden out of Stanford University, the
+  company builds intelligent machinery that combines computer vision, machine learning, robotics, and
+  full-stack software to make farming more precise and sustainable. Its flagship product, See & Spray,
+  uses onboard cameras and deep-learning models to distinguish crops from weeds in real time and
+  target herbicide only where it is needed, dramatically reducing chemical use. Blue River operates as
+  John Deere's autonomy and computer-vision engineering hub, applying the same perception and
+  edge-AI stack across agriculture, construction, and mining equipment. The company does not publish a
+  public developer API, SDK, or documentation portal; its technology ships embedded in John Deere
+  machinery and is surfaced to growers through John Deere Operations Center rather than a standalone
+  developer program.
 url: https://raw.githubusercontent.com/api-evangelist/blue-river-technology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,68 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-parent-company: John Deere (Deere & Company)
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.bluerivertechnology.com/favicon.ico
 tags:
 - Company
+- Agriculture
+- Robotics
+- Computer Vision
+- Machine Learning
+- Artificial Intelligence
+- Agtech
+- Autonomy
+- Precision Agriculture
+- North America
 apis: []
+common:
+- type: DomainSecurity
+  url: security/blue-river-technology-domain-security.yml
+- type: Website
+  url: https://www.bluerivertechnology.com/
+- type: About
+  url: https://www.bluerivertechnology.com/mission/
+- type: Products
+  url: https://www.bluerivertechnology.com/products/
+- type: Blog
+  url: https://www.bluerivertechnology.com/blog/
+- type: Jobs
+  url: https://www.bluerivertechnology.com/careers/open-positions/
+- type: PrivacyPolicy
+  url: https://www.deere.com/en/privacy-and-data/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/blue-river-technology/
+- type: ParentCompany
+  url: https://www.deere.com/
+- type: Features
+  data:
+  - 'Sector: Agricultural robotics / precision agriculture'
+  - 'Flagship product: See & Spray (computer-vision targeted spraying)'
+  - 'Technology: Computer vision, machine learning, robotics, edge AI'
+  - 'Parent: John Deere (Deere & Company), acquired 2017'
+  - 'Headquarters: Santa Clara, California, USA'
+  - 'Developer API: none published (embedded in John Deere machinery)'
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
