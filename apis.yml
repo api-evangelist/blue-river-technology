@@ -51,8 +51,8 @@ tags:
 - Company
 - Agriculture
 - Robotics
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Artificial Intelligence
 - AgTech
 - Autonomy
@@ -69,6 +69,8 @@ tags_raw:
 - Autonomy
 - Precision Agriculture
 - North America
+- Computer-Vision
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
